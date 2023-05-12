@@ -1,0 +1,57 @@
+:root {
+    --theme-color: white;
+    --navbar-color: black;
+    --primary-color: #212663;
+    --secondary-color: #4a4a4d;
+    --text-color-inverse: black;
+    --text-color:white;
+    --text-navbar-color: white;
+    --navbar-shallow-color:#4a4a4d;
+    --menu-mobile-background-color: rgb(49, 49, 71);
+    --underline-color: rgb(51, 15, 51);
+    --img-line-color: rgb(4, 14, 46);
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
+    padding-top: 70px;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.vertical-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.horizontal-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+    .vertical-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .horizontal-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
